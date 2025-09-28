@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router";
+import Header from "../components/Header";
 
 const router = createBrowserRouter(
 
@@ -6,7 +7,7 @@ const router = createBrowserRouter(
 
     {
         path: "/",
-        element: <h2 className="text-amber-600">home layout</h2>
+        element: <Header></Header>
     },
     {
         path: "/auth",
