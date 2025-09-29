@@ -1,7 +1,9 @@
 import React, { Suspense } from 'react';
 import AllCategories from '../categories/AllCategories';
 
+
 const LeftAside = () => {
+    
     return (
         <div>
             <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
